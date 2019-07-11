@@ -1,0 +1,111 @@
+
+	/*
+	Azul 1 -#031043
+	Cores:
+	rgba(255,205,63,1); Amarelo
+	-----------------
+	Cinza top gradiente
+	    background-image: radial-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25), rgba(121,127,132,1));
+}
+font-family: 'Raleway', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Mono', monospace;
+
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Inconsolata', monospace;
+	*/
+	
+
+
+
+
+
+	.conteudo1{
+
+		width: 100%;
+		background-color: #ffc107;
+		height: 300px;
+		
+
+	}
+
+
+	
+	.formulario{
+		justify-content: center;
+			flex-flow:column; 
+	align-items:center; 
+}
+	.cadastro{
+		
+		background-color: #031043;
+		
+		height: 350px;
+		
+	}
+	p.textoform{
+		color: #ffc107;
+		text-align: center;
+		font-size: 40px;
+		padding-top:  10px;
+		font-family:'Quicksand', sans-serif;
+	}
+	i{
+		color: #fafafa;
+	}
+
+
+	
+	footer{
+		justify-content: center;
+			flex-flow:column; 
+		align-items:center; 
+		padding-top: 30px;
+		width: 100%;
+		height: 300px;
+
+		background-image: radial-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25), rgba(121,127,132,1));
+	}
+
+	footer p{
+		text-align: center;
+		font-size: 30px;
+		color: #031043;
+		padding-top: 30px;
+	}
+
+	footer>.traco{
+
+		margin: 0 auto;
+		width: 100px;
+		height: 5px;
+		background-color: #ffc107;
+	}
+
+	.form-control{
+
+
+	height: calc(2.3em + .75rem + 2px);
+
+}
+
+.btn{
+
+	font-size: 1.5rem;
+}
+i>.iconmsg{
+	font-size: 3em;
+}
+.fa-envelope-open-text{
+	font-size: 4em;
+}
+.tituloform{
+padding-left: 10px;
+}
